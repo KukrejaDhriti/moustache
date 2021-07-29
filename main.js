@@ -3,7 +3,7 @@ var noseY= 0;
 
 function preload()
 {
-   clown_nose= loadImage('https://i.postimg.cc/k58b8Gr2/m.png');
+   moustache= loadImage('https://i.postimg.cc/k58b8Gr2/m.png');
 } 
 
 function setup()
@@ -35,7 +35,7 @@ function gotposes(results)
 function draw()
 {
 image(video, 0,0 , 300, 300);
-image(moustache, noseX+15, noseY+5, 30, 30);
+image(moustache, noseX-15, noseY+10, 40, 30);
 }
 
 function take_snapshot()
